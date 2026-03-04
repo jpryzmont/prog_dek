@@ -2,11 +2,11 @@ lubi(marcin,gitara).
 lubi(magda,ksiazki).
 lubi(piotr,gitara).
 lubi(ola,sport).
-lubi(ania,ksiazki).
+lubi(ania,H):-lubi(magda,H).
 wspolne_hobby(X,Y):-lubi(X,G),lubi(Y,G),X\==Y.
 /*
 program składa się z 6 klauzuli:
-5 faktow i 1 reguly.
+4 faktow i 2 reguly.
 2 definicje relacji.
 */
 
