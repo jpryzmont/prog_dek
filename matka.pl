@@ -2,7 +2,7 @@ matka(marta,ola).
 matka(helena,pawel).
 dziecko(kamil,marta).
 dziecko(piotr,helena).
-matka(X,Y):-dziecko(Y,X).
+dziecko(X,Y):-matka(Y,X).
 rodzenstwo(X,Y):-matka(G,X),matka(G,Y),X\==Y.
 
 /*
@@ -29,4 +29,5 @@ X = kamil.
 4.Czy Piotr i Pawel maja wspolna matke?
 ?- rodzenstwo(piotr,pawel).
 true ;
+
 */
