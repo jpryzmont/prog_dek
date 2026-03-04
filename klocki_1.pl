@@ -19,3 +19,15 @@ Jest to relacaj na/2.
 Defincja relacji na/2 składa sie z
 3 klazul, które sa faktami.
 */ 
+/*
+pod(X,Y)
+klocek X leży bezpośrednio pod kockiemy Y
+*/
+pod(X,Y):-na(Y,X).
+/*
+miedzy(X,Y,Z)
+klocek X lezy miedzy klockami Y i Z
+*/
+miedzy(X,Y,Z):-na(Y,X),pod(Z,X).
+miedzy(X,Y,Z):-na(Z,X),pod(Y,X).
+
