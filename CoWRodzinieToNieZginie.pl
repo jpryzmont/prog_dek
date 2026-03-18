@@ -3,6 +3,7 @@
 rodzic(ewa,ania).
 rodzic(piotr,ewa).
 rodzic(marcin,piotr).
-rodzic(ania,piotr).
+//rodzic(ania,piotr). - pierwotnie sweet home alabama
+rodzic(marta,piotr).
 przodek(X,Y):-rodzic(Y,Z).
 przodek(X,Y):-rodzic(Y,Z),rodzic(Z,Y).
