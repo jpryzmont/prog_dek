@@ -37,5 +37,5 @@ pole_c_prostopadlo3 a b h = let
 abs :: Float -> Float
 abs x = if x<0 then (-x) else x
 
-sign :: Float -> Int
-sign x = if x>0 then 1 else if x==0 then 0 else -1
+sgn :: Float -> Int
+sgn x = if x>0 then 1 else if x==0 then 0 else -1
