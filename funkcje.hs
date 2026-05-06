@@ -83,3 +83,6 @@ sprawdz x
 
 sprawdz2 :: Float -> String
 sprawdz2 x = if x<0 then "x<0" else if 0<=x && x<=10 then "<0,10>" else "GT10"
+
+and :: Bool -> Bool -> String
+and x y = if x==True && y==True then "jeden" else "zero"
