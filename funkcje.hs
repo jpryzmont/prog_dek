@@ -74,3 +74,9 @@ albo_albo3 x y =
 albo_albo4 :: Bool -> Bool -> Bool
 albo_albo4 x y =
 	not(x) && y || not(y) && x
+
+sprawdz :: Float -> String
+sprawdz x
+	|x<0 = "Liczba mniejsza od zera"
+	|0 <= x && x <= 10 = "Liczba jest w przedziale <0,10>"
+	|otherwise = "Liczba jest wieksza niz 10"
