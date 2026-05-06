@@ -50,3 +50,11 @@ sgn2 x
 	|x>0 = 1
 	|x==0 = 0
 	|otherwise = -1
+
+min :: Float -> Float -> Float
+min x y = if x>y then y else x
+
+min2 :: Float -> Float -> Float
+min2 x y
+	|x>y = y
+	|otherwise = x
