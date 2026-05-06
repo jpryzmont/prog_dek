@@ -70,3 +70,7 @@ albo_albo2 x y
 albo_albo3 :: Bool -> Bool -> Bool
 albo_albo3 x y =
 	not(x && y) && ( x || y)
+
+albo_albo4 :: Bool -> Bool -> Bool
+albo_albo4 x y =
+	not(x) && y || not(y) && x
