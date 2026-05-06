@@ -80,3 +80,6 @@ sprawdz x
 	|x<0 = "Liczba mniejsza od zera"
 	|0 <= x && x <= 10 = "Liczba jest w przedziale <0,10>"
 	|otherwise = "Liczba jest wieksza niz 10"
+
+sprawdz2 :: Float -> String
+sprawdz2 x = if x<0 then "x<0" else if 0<=x && x<=10 then "<0,10>" else "GT10"
