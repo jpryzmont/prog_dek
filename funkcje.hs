@@ -39,3 +39,14 @@ abs x = if x<0 then (-x) else x
 
 sgn :: Float -> Integer
 sgn x = if x>0 then 1 else if x==0 then 0 else -1
+
+abs2 :: Float -> Float
+abs2 x
+	|x<0 = (-x)
+	|otherwise = x
+
+sgn2 :: Float -> Integer
+sgn2 x
+	|x>0 = 1
+	|x==0 = 0
+	|otherwise = -1
