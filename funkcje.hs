@@ -54,6 +54,11 @@ sgn2 x
 min :: Float -> Float -> Float
 min x y = if x>y then y else x
 
+min2 :: Float -> Float -> Float
+min2 x y
+	|x>y = y
+	|otherwise = x
+
 albo_albo :: Bool -> Bool -> Bool
 albo_albo x y = if x /= y then True else False
 
@@ -61,7 +66,7 @@ albo_albo2 :: Bool -> Bool -> Bool
 albo_albo2 x y
 	| x /= y = True
 	|otherwise = False
-min2 :: Float -> Float -> Float
-min2 x y
-	|x>y = y
-	|otherwise = x
+
+albo_albo3 :: Bool -> Bool -> Bool
+albo_albo3 x y =
+	not(x && y) && ( x || y)
