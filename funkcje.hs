@@ -129,4 +129,5 @@ third (_,_,z) = z
 kwadrat_lista::[Int]->[Int]
 kwadrat_lista [] = []
 kwadrat_lista (x:xs)=(kwadrat x):(kwadrat_lista xs)
+--xs moze byc zapisane jako t (ogon)    (x:t) tez jest okej
 
