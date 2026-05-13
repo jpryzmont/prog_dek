@@ -131,3 +131,7 @@ kwadrat_lista [] = []
 kwadrat_lista (x:xs)=(kwadrat x):(kwadrat_lista xs)
 --xs moze byc zapisane jako t (ogon)    (x:t) tez jest okej
 
+lista_wiekszao1 :: [Float]-> [Float]
+lista_wiekszao1 [] = []
+lista_wiekszao1 (x:xs)=(x+1):(lista_wiekszao1 xs)
+
