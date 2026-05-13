@@ -122,3 +122,4 @@ third (_,_,z) = z
 -- H - głowa
 -- T - ogon
 -- H=1 T=[2,3,4]
+--robilimsy jakies wyliczenia (bedzie takie zadanie na kolokwium)
