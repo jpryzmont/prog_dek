@@ -102,3 +102,9 @@ compare a b
 	|a>b = GT
 	|a==b = EQ
 	|otherwise = LT
+
+pierwiastek :: Float -> Float -> Float -> String
+pierwiastek a b c
+	|b^2-4*a*c>0 = "Dwa pierwiastki"
+	|b^2-4*a*c==0 = "Jeden pierwiastek"
+	|otherwise = "Zero pierwiastkow"
