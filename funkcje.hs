@@ -125,4 +125,8 @@ third (_,_,z) = z
 --robilimsy jakies wyliczenia (bedzie takie zadanie na kolokwium)
 
 --kurwa znowu rekurencja
+--kwadrat x = x * x mam to wczesniej
+kwadrat_lista::[Int]->[Int]
+kwadrat_lista [] = []
+kwadrat_lista (x:xs)=(kwadrat x):(kwadrat_lista xs)
 
