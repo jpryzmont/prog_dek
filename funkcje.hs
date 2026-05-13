@@ -123,3 +123,6 @@ third (_,_,z) = z
 -- T - ogon
 -- H=1 T=[2,3,4]
 --robilimsy jakies wyliczenia (bedzie takie zadanie na kolokwium)
+
+--kurwa znowu rekurencja
+
