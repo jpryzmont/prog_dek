@@ -124,7 +124,7 @@ third (_,_,z) = z
 -- H=1 T=[2,3,4]
 --robilimsy jakies wyliczenia (bedzie takie zadanie na kolokwium)
 
---kurwa znowu rekurencja
+--rekurencja
 -- funckje kwadrat mam wczesniej
 kwadrat_lista::[Int]->[Int]
 kwadrat_lista [] = []
