@@ -89,3 +89,8 @@ and x y = if x==True && y==True then "jeden" else "zero"
 
 implikacja :: Bool -> Bool -> Bool
 implikacja x y = if x == True && y == False then False else True
+
+implikacja2 :: Bool -> Bool -> Bool
+implikacja2 x y
+	|x == True && y == False = False
+	|otherwise = True
