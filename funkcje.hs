@@ -116,3 +116,9 @@ second :: (a,b,c) -> b
 second (_,y,_) = y
 third :: (a,b,c) -> c
 third (_,_,z) = z
+
+--LISTY
+-- [1,2,3,4]
+-- H - głowa
+-- T - ogon
+-- H=1 T=[2,3,4]
