@@ -141,5 +141,5 @@ lista_razy5 (x:xs) = (x*5) : (lista_razy5 xs)
 
 lista_mniejszao3 :: [Int] -> [Int]
 lista_mniejszao3 [] = []
-lista_mniejszao3 (x:sx) = (x-3) : (lista_mniejszao3 xs)
+lista_mniejszao3 (x:xs) = (x-3) : (lista_mniejszao3 xs)
 
