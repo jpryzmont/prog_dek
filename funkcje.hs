@@ -117,7 +117,7 @@ second (_,y,_) = y
 third :: (a,b,c) -> c
 third (_,_,z) = z
 
---LISTY
+--LISTY (indeksy od 0)
 -- [1,2,3,4]
 -- H - głowa
 -- T - ogon
