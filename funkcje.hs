@@ -94,3 +94,11 @@ implikacja2 :: Bool -> Bool -> Bool
 implikacja2 x y
 	|x == True && y == False = False
 	|otherwise = True
+
+--compare funkcja porwnowja 2 argumenty
+--Ord - klasa typow dla ktorych zdefiniwane jest porownywanie argumentow
+compare ::Ord a=>a->a->Ordering
+compare a b
+	|a>b = GT
+	|a==b = EQ
+	|otherwise = LT
