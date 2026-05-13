@@ -135,3 +135,7 @@ lista_wiekszao1 :: [Float] -> [Float]
 lista_wiekszao1 [] = []
 lista_wiekszao1 (x:xs)=(x+1):(lista_wiekszao1 xs)
 
+lista_razy5 :: [Float] -> [Float]
+lista_razy5 [] = []
+lista_razy5 (x:xs) = (x*5) : (lista_razy5 xs)
+
