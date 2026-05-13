@@ -108,3 +108,11 @@ pierwiastek a b c
 	|b^2-4*a*c>0 = "Dwa pierwiastki"
 	|b^2-4*a*c==0 = "Jeden pierwiastek"
 	|otherwise = "Zero pierwiastkow"
+
+--funkcje wyznaczajace pierwszy drugi i trzeci element torjk uporzadkowanej
+first :: (a,b,c) -> a
+first (x,_,_) = x
+second :: (a,b,c) -> b
+second (_,y,_) = y
+third :: (a,b,c) -> c
+third (_,_,z) = z
